@@ -9,10 +9,10 @@ export const DEFAULT_PATH_ALGO = "dijkshtra";
 export const DEFAULT_SORT_ALGO = "merge";
 
 export { default as dijkshtra } from "./PathFindingAlgos/dijkshtra";
-export { default as DFS } from "./PathFindingAlgos/dijkshtra";
-export { default as BFS } from "./PathFindingAlgos/dijkshtra";
-export { default as AStar } from "./PathFindingAlgos/dijkshtra";
-export { default as generateMaze } from "./PathFindingAlgos/dijkshtra";
+export { default as DFS } from "./PathFindingAlgos/DFS";
+export { default as BFS } from "./PathFindingAlgos/BFS";
+export { default as AStar } from "./PathFindingAlgos/AStar";
+export { default as generateMaze } from "./PathFindingAlgos/mazeGenerator";
 export { default as quickSort } from "./Algorithms/quickSort";
 export { default as mergeSort } from "./Algorithms/mergeSort";
 export { default as bubbleSort } from "./Algorithms/bubbleSort";

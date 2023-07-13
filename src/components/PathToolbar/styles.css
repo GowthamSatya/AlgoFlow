@@ -7,6 +7,19 @@
 	padding: 20px;
 }
 
+.path-toolbar-top {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	gap: 40px;
+}
+
+.path-toolbar-bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
 .path-slider {
 	margin-bottom: 20px;
 	width: 100%;

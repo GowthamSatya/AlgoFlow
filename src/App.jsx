@@ -1,14 +1,15 @@
 import "./App.css";
 import { Link } from "react-router-dom";
+import Card from "./components/Card";
 
 function App() {
 	return (
-		<div>
-			<Link to="/sorting">
-				<button>Sorting</button>
+		<div className="main-page">
+			<Link className="sort" to="/sorting">
+				<Card name="Sorting" />
 			</Link>
-			<Link to="/path-finding">
-				<button>Path Finding</button>
+			<Link className="sort" to="/path-finding">
+				<Card name="Path Finding" />
 			</Link>
 		</div>
 	);

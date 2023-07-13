@@ -9,6 +9,12 @@
 	background-color: var(--background-secondary);
 }
 
+.card {
+	background-color: var(--background-tertiary);
+	padding: 20px;
+	border-radius: 20px;
+}
+
 .sorting_container {
 	width: 100%;
 	height: 100%;
@@ -26,4 +32,25 @@
 
 .path-main {
 	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: stretch;
+	padding: 0 100px;
+	gap: 50px;
+}
+
+.outlet {
+	width: 100%;
+}
+
+.main-page {
+	width: 100%;
+	display: flex;
+	padding: 20px;
+	justify-content: space-evenly;
+}
+
+.sort {
+	text-decoration: none;
+	color: white;
 }
