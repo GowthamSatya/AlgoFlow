@@ -1,0 +1,98 @@
+.path-toolbar {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.path-slider {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.slider-thumb-path {
+	background-color: var(--background-tertiary);
+	border-radius: 20px;
+	width: 40px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider-track-path-0 {
+	background-color: var(--primary-color-dark);
+	height: 20px;
+	border-radius: 20px;
+}
+.slider-track-path-1 {
+	background-color: var(--primary-color-light);
+	height: 20px;
+	border-radius: 20px;
+}
+
+.select-container-path {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.react-select-path__control {
+	background-color: transparent !important;
+	border: 2px solid var(--primary-color) !important;
+	border-radius: 10px !important;
+	box-shadow: none !important;
+}
+
+.react-select-path__single-value {
+	color: white !important;
+}
+
+.react-select-path__control:focus {
+	background-color: transparent !important;
+	border: 3px solid var(--primary-color) !important;
+	border-radius: 10px !important;
+	color: white !important;
+}
+
+.react-select-path__placeholder {
+	color: white !important;
+}
+
+.react-select-path__indicator-separator {
+	background-color: var(--primary-color) !important;
+}
+
+.react-select-path__menu {
+	background-color: var(--background-tertiary) !important;
+	border-radius: 10px !important;
+	z-index: 10 !important;
+}
+
+.react-select-path__option {
+	color: white !important;
+}
+
+.react-select-path__option:hover {
+	color: black !important;
+}
+
+.react-select-path__option--is-selected {
+	background-color: var(--primary-color) !important;
+}
+
+.maze-btn {
+	padding: 10px;
+	width: 200px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: var(--primary-color);
+	border: 0;
+	outline: none;
+}
+
+.maze-btn:hover {
+	background-color: var(--primary-color-dark);
+}

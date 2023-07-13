@@ -1,0 +1,29 @@
+.nd {
+	background-color: white;
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+	text-align: center;
+	color: black;
+}
+
+.start {
+	background-color: red;
+}
+
+.finish {
+	background-color: green;
+}
+
+.wall {
+	background-color: grey;
+}
+
+.visited {
+	background-color: yellow;
+}
+
+.path {
+	background-color: greenyellow;
+}

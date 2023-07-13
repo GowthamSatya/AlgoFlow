@@ -1,0 +1,26 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 10px;
+	width: 100%;
+	/* -webkit-box-shadow: 0px 12px 26px 13px rgba(0, 0, 0, 0.44);
+	-moz-box-shadow: 0px 12px 26px 13px rgba(0, 0, 0, 0.44);
+	box-shadow: 0px 12px 26px 13px rgba(0, 0, 0, 0.44); */
+}
+
+.nav_left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.back-btn {
+	text-decoration: none;
+	background-color: transparent;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	margin-top: 4px;
+}
